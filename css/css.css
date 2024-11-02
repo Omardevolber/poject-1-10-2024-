@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right,#3498db, #e91e63);
+    align-items: center;
+   
+
+}
+.title{
+    font-size: 40px;
+}
+.Main{
+    border: #000 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    background:linear-gradient(to left,#3498db, #e91e63);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.Body{
+    border: #000 solid 3px;
+    border-radius: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    margin-left: 42%;
+
+}
+.Name{
+    color: aliceblue;
+    
+}
+.link{
+    text-decoration: none;
+
+}
+.footer{
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Summary</title>
+    <link rel="shortcut icon"
+        href="img/DALL·E 2024-10-26 23.39.03 - A minimalist, modern logo for a personal goal-tracking web app called _Daily Activity Tracker._ The design should feature a simple icon, like a checke.webp"
+        type="image/webp" class="shortcut-icon">
+    <link rel="stylesheet" href="css/css data(Daily Activity Tracker) .css">
+   
+</head>
+<body>
+    <header>
+        <h1>Daily Summary</h1>
+        <a href="index.html">
+            <button class="home">Home</button>
+        </a>
+    </header>
+
+    <!-- Activity Summary Section -->
+    <section id="activity-summary">
+        <h2>Your Activities to Complete</h2>
+        <table id="activity-table">
+            <thead>
+                <tr>
+                    <th>Complete</th>
+                    <th>Activity</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+        <p><strong>Progress:</strong> <span id="progress">0%</span></p>
+        <button onclick="clearActivities()" class="clear">Clear All</button> <!-- Clear All button -->
+    </section>
+
+    <!-- Notes Section -->
+    <section id="notes-summary">
+        <h2>Your Notes</h2>
+        <div id="notes-content"></div>
+    </section>
+    <footer style="color: aliceblue;">
+        <h1>Omar Eman</h1>
+        <h1>241000339</h1>
+       </footer>
+    
+</body>
+<script src="js/js data(Daily Activity Tracker).js"></script>
+</html>

@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to right ,#3498db, #e91e63);
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(to left ,#3498db, #e91e63);
+    width: 300px;
+    padding: 20px;
+    margin-left: 600px;
+    border-radius: 20px;
+    border: black solid 3px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 700px;
+    border: black solid 4px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 400px;
+
+}
+.input1{
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 310px;
+}
+.input2{
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+.input3{
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 210px;
+}
+.input4{
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 330px;
+}
+.input5{
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.btn{
+    margin-left: 690px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: #000 solid 3px;
+    border-radius: 20px;
+    background-color: #0d5be0;
+    color: #fff;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #0db6e0;
+    letter-spacing: 5px;
+}

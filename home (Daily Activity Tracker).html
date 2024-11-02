@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Activity Tracker</title>
+    <link rel="shortcut icon"
+        href="img/DALL·E 2024-10-26 23.39.03 - A minimalist, modern logo for a personal goal-tracking web app called _Daily Activity Tracker._ The design should feature a simple icon, like a checke.webp"
+        type="image/webp" class="shortcut-icon">
+    <link rel="stylesheet" href="css/css home(Daily Activity Tracker).css">
+   
+</head>
+<body>
+    <header>
+        <h1>Daily Activity Tracker</h1>
+        <p>Track your daily activities and stay organized!</p>
+    </header>
+
+    <!-- Activity Input Form -->
+    <section id="activity-form">
+        <h2>Enter Your Activities</h2>
+        <div id="activity-list">
+            <div class="activity-entry">
+                <input type="text" placeholder="Activity (e.g., Exercise)" class="activity-input">
+                <input type="time" class="activity-time">
+                <button class="delete-btn" onclick="removeActivity(this)">X</button>
+            </div>
+        </div>
+        <button onclick="addActivity()">+ Add More Activities</button>
+        <button onclick="saveActivities()">Save</button>
+    </section>
+
+    <!-- Notes Section -->
+    <section id="notes-section">
+        <h2>Notes</h2>
+        <textarea id="note-input" placeholder="Add a note..."></textarea>
+        <button onclick="saveNote()">Save Note</button>
+    </section>
+
+   <footer style="color: aliceblue;">
+    <h1>Omar Eman</h1>
+    <h1>241000339</h1>
+   </footer>
+</body>
+<script src="js/js home(Daily Activity Tracker).js"></script>
+</html>
